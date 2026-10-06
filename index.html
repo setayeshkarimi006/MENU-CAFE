@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>کافه ستایش</title>
+  </head>
+
+  <body>
+
+    <main class="container">
+
+      <!-- Header -->
+      <header class="header">
+
+        <div class="brand">
+          <div class="brand-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <path d="M5 8h14v7a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V8Z"/>
+              <path d="M5 11H3a3 3 0 0 0 0 6h2"/>
+              <path d="M8 4c0 1-1 1.5-1 2.5"/>
+              <path d="M12 4c0 1-1 1.5-1 2.5"/>
+              <path d="M16 4c0 1-1 1.5-1 2.5"/>
+            </svg>
+          </div>
+
+          <div>
+            <h1>کافه ستایش</h1>
+            <span>طعم خوب، حال خوب</span>
+          </div>
+        </div>
+
+    
+      </header>
+
+
+      <!-- Category Box -->
+      <section class="category-box">
+
+        <div class="category-header">
+
+          <div>
+            <span class="eyebrow">EXPLORE MENU</span>
+            <h2>منوی کافه</h2>
+          </div>
+
+          <p>
+            دسته مورد علاقه‌ات رو انتخاب کن
+          </p>
+
+        </div>
+
+
+        <div class="categories" id="categories">
+
+          <!-- توسط JavaScript ساخته می‌شود -->
+
+        </div>
+
+      </section>
+
+
+      <!-- Search -->
+      <section class="menu-controls">
+
+        <div class="search-box">
+
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="11" cy="11" r="7"/>
+            <path d="m20 20-4-4"/>
+          </svg>
+
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="جستجوی غذا، نوشیدنی یا دسر..."
+            autocomplete="off"
+          />
+
+          <button
+            class="clear-search"
+            id="clearSearch"
+            type="button"
+          >
+            ×
+          </button>
+
+        </div>
+
+      </section>
+
+
+      <!-- Selected Category -->
+      <section class="products-section">
+
+        <div class="section-heading">
+
+          <div>
+            <span class="eyebrow">OUR MENU</span>
+
+            <h2 id="selectedCategory">
+              همه منو
+            </h2>
+          </div>
+
+          <div class="product-count" id="productCount">
+            ۲۷ محصول
+          </div>
+
+        </div>
+
+
+        <!-- Products -->
+        <div
+          class="products-grid"
+          id="productList"
+        ></div>
+
+      </section>
+
+
+      <!-- Footer -->
+      <footer class="footer">
+
+        <span>کافه ستایش</span>
+
+        <span class="footer-line"></span>
+
+        <span>با عشق برای شما</span>
+
+      </footer>
+
+    </main>
+
+
+    <script src="./main.js"></script>
+
+  </body>
+</html>
